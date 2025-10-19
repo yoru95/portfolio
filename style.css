@@ -90,6 +90,12 @@ ul {
     border-radius: 20px;
 }
 
+ol {
+    font-size: 19px;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
 header {
     background-color: burlywood;
     padding: 20px;
