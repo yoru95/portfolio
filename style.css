@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(253, 238, 221);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans';
+    color: #8b4513;
+    position: relative;
+    z-index: 1;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: burlywood;
+    border-radius: 15px;
+    z-index: -1;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+
+nav {
+    padding-left: 10px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 25px;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.link-nav1 {
+    font-size: 20px;
+    float: left;
+    color: goldenrod;
+}
+
+.link-nav2 {
+    font-size: 20px;
+    float: right;
+    color: goldenrod;
+} 
+
+.link-nav1:hover {
+    transform: scale(1.2);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px 5px 0px burlywood;
+    border-radius: 100%;
+}
+
+.link-nav2:hover {
+    transform: scale(1.2);
+    transition: 0.5s linear;
+    box-shadow: 5px 5px 5px 0px burlywood;
+    border-radius: 100%;
+}
+
+
+.link-header {
+    background-color: antiquewhite;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.link-header:hover {
+    color: black;
+    border: 5px solid black;
+}
+
+ul {
+    font-size: 19px;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+header {
+    background-color: burlywood;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.logo {
+    position: absolute;
+    border-radius: 50px;
+    top: 0px;
+    right: 10px;
+}
+
+.logo:hover {
+    transition: 0.1s linear;
+    border: 5px solid brown;
+}
+
+.text-big {
+    font-size: 25px;
+}
+
+.link-text {
+    font-size: 20px;
+    color: goldenrod;
+}
+
+main {
+    padding: 15px;
+}
+
+footer {
+    background-color: burlywood;
+    border-radius: 10px;
+    position: relative;
+}
+
+footer p {
+    float: right;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    background: linear-gradient(to right, #f5e6d3 0%, #e6d1b3 100%);
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: 3px solid #d2b48c;
+    text-align: center;
+    position: relative;
+}
+
+.intro h2 {
+    color: #8b4513;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', sans-serif;
+    text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.1);
+    position: relative;
+    z-index: 2;
+}
